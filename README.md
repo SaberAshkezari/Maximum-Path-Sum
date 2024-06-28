@@ -33,6 +33,3 @@ Note: This problem has been taken from Projekt Euler.
 
 ## Solution Approach
 The idea is to start from the bottom of the triangle and move upwards, accumulating the maximum path sums. The start point is the second last row of the triangle. Then, for each element, the maximum of its summation with two children is restored. This approach continues until the first row of the triangle.
-
-## Code
-The solutions are written in C++ language. For using Part 2, it's necessary to replace the location of "triangle.txt" in the "main.cpp" file.
