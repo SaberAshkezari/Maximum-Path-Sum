@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-int maximumPathSum(std::vector<std::vector<int>>& triangle) {
+int maximumPathSum(const std::vector<std::vector<int>>& triangle) {
     std::vector<std::vector<int>> dp = triangle;
 
     for (int row = dp.size() - 2; row >= 0; --row) {
