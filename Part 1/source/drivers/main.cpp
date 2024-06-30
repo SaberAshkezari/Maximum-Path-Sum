@@ -4,7 +4,7 @@
 #include <vector>
 
 int main() {
-    std::string filename = "triangle.txt";
+    std::string filename = "D:/triangle.txt";
     std::vector<std::vector<int>> triangle = readData(filename);
 
     std::cout << "Maximum path sum: " << maximumPathSum(triangle) << std::endl;
